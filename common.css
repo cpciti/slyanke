@@ -1,0 +1,185 @@
+BODY {
+	FONT-FAMILY: Arial, Helvetica, sans-serif;  FONT-SIZE: 12px; background:#E7F3F8;background-position:center top;
+
+}
+.clear {
+	CLEAR: both
+}
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	TEXT-ALIGN: center; MARGIN: 27px auto; COLOR: #404040
+}
+H2 {
+	TEXT-ALIGN: center; MARGIN: 36px auto; COLOR: #464646
+}
+H4 {
+	TEXT-ALIGN: center; MARGIN: 36px auto 10px; COLOR: #464646
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+A {
+	COLOR: #404040; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #1b5e7c; text-decoration:underline;
+}
+A IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+LI A {
+	COLOR: #404040; TEXT-DECORATION: none
+}
+UL LI A:hover {
+	COLOR: #1c6888;
+}
+.main {
+	MARGIN: 0px auto; WIDTH: 1000px; background:#FFFFFF;
+
+}
+.top {
+	
+}
+.top .top_t {
+	WIDTH: 998px; background:#FFFFFF;HEIGHT: 80px; margin-top:0px;
+}
+.top_t .logo { margin-bottom:1px; margin-top:10px;
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left;
+}
+.top_t .top_right {
+	WIDTH: 640px; PADDING-RIGHT: 16px; FLOAT: right;}
+.top_right .right_t { margin-bottom:1px;
+	LINE-HEIGHT: 19px; WIDTH: 250px; FLOAT: right; HEIGHT: 19px
+}
+.right_t UL LI {
+	MARGIN: 0px 10px 0px 0px; WIDTH: auto; FLOAT: left; COLOR: #c8d9e1
+}
+.right_t A {
+	COLOR: #fff
+}
+.right_t A:hover {
+	COLOR: #ffc600
+}
+.col {
+	COLOR: #c8d9e1
+}
+.top_right .right_m {
+	MARGIN: 14px 0px 0px; WIDTH: 590px; FLOAT: right
+}
+.top_right .right_m .ss {
+	MARGIN: 0px 0px 0px 10px; FLOAT: left
+}
+.top_right .right_m .tt {
+	FLOAT: left
+}
+.top_right .right_m .tt ._text {
+	LINE-HEIGHT: 17px; WIDTH: 208px; HEIGHT: 19px
+}
+.top_right .navigation {
+	FLOAT: right; HEIGHT: 40px
+}
+.navigation UL LI {
+	TEXT-ALIGN: center; LINE-HEIGHT: 40px; WIDTH: 77px; BACKGROUND: url(/img/daohang_xian.jpg) no-repeat 0px center; FLOAT: left
+}
+.navigation UL LI A {
+	COLOR: #4c4c4c; TEXT-DECORATION: none
+}
+.navigation UL LI A:hover {
+	COLOR: #02658e
+}
+.navigation UL LI.non A {
+	COLOR: #02658e
+}
+.navigation UL LI.pro_color A {
+	COLOR: #02658e
+}
+.navigation UL LI.non {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.navigation UL LI.non_n {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #444444
+}
+.banner {
+	TEXT-ALIGN: center; MARGIN: 0px 0px; WIDTH: 1000px; HEIGHT: 286px; background:#CCCCCC; margin-bottom:20px;
+}
+DIV#MainPromotionBanner {
+	WIDTH: 1000px; HEIGHT: 286px
+}
+#MainPromotionBanner #SlidePlayer {
+	POSITION: relative; MARGIN: 0px auto
+}
+#MainPromotionBanner .Slides {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 286px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+#MainPromotionBanner .Slides LI {
+	WIDTH: 1000px; FLOAT: left; HEIGHT: 286px
+}
+#MainPromotionBanner .Slides IMG {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 1000px; DISPLAY: block; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 286px; BORDER-LEFT-WIDTH: 0px
+}
+#MainPromotionBanner .SlideTriggers {
+	Z-INDEX: 10; POSITION: absolute; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 25px; TOP: 260px; RIGHT: 20px; PADDING-TOP: 0px
+}
+#MainPromotionBanner .SlideTriggers LI {
+	TEXT-ALIGN: center; LINE-HEIGHT: 16px; MARGIN: 3px 6px; WIDTH: 16px; DISPLAY: inline; BACKGROUND: url(/img/slide_trigger.gif) no-repeat center center; FLOAT: left; HEIGHT: 16px; COLOR: #74a8ed; FONT-SIZE: 0.9em; OVERFLOW: hidden; CURSOR: pointer
+}
+#MainPromotionBanner .SlideTriggers LI.Current {
+	LINE-HEIGHT: 21px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px 6px; WIDTH: 21px; BACKGROUND: url(/img/slide_trigger_c.gif) no-repeat center center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 21px; COLOR: #fff; FONT-SIZE: 1.4em; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold
+}
+.footer {
+	TEXT-ALIGN: center; border-top:#cccccc 1px solid; MARGIN: 5px 0px 0px;  HEIGHT: 88px; }
+.footer UL {
+	PADDING-BOTTOM: 10px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 385px; PADDING-RIGHT: 0px; PADDING-TOP: 20px
+}
+.footer UL LI {
+	TEXT-ALIGN: center; WIDTH: 65px; BACKGROUND: url(/img/foot.jpg) no-repeat right center; FLOAT: left
+}
+.footer UL LI.nn {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.footer UL LI.qq {
+	WIDTH: 80px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.footer .bq {
+	LINE-HEIGHT: 30px; COLOR: #8b0808
+}
+.footer .banq {
+	WIDTH: 600px; COLOR: #fff
+}
+.banq UL.pp {
+	POSITION: relative; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 110px; PADDING-LEFT: 0px; WIDTH: 600px; PADDING-RIGHT: 0px; HEIGHT: 20px; PADDING-TOP: 0px
+}
+.banq UL.pp LI {
+	MIN-WIDTH: 15px; MARGIN: 0px 10px 0px 0px; WIDTH: auto; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left
+}
+.footer UL LI A {
+	COLOR: #21607d
+}
+.footer UL LI A:hover {
+	COLOR: #f00
+}
+#massage_box {
+	Z-INDEX: 2; POSITION: absolute; FILTER: dropshadow(color=#666666,offx=3,offy=3,positive=2); WIDTH: 350px; HEIGHT: 200px; VISIBILITY: hidden; OVERFLOW: hidden; ; TOP: expression((body.clientHeight-200)/2); ; LEFT: expression((body.clientWidth-350)/2)
+}
+#mask {
+	Z-INDEX: 1; POSITION: absolute; FILTER: ALPHA(opacity=60); ; WIDTH: expression(body.scrollWidth); BACKGROUND: #666; ; HEIGHT: expression(body.scrollHeight); VISIBILITY: hidden; TOP: 0px; LEFT: 0px
+}
+.massage {
+	BORDER-BOTTOM-STYLE: solid; BORDER-BOTTOM-COLOR: #036; LINE-HEIGHT: 150%; BORDER-RIGHT-STYLE: solid; BORDER-TOP-COLOR: #036; WIDTH: 95%; BORDER-TOP-STYLE: solid; BACKGROUND: #fff; HEIGHT: 95%; COLOR: #036; BORDER-RIGHT-COLOR: #036; FONT-SIZE: 12px; BORDER-LEFT-STYLE: solid; OVERFLOW: hidden; BORDER-LEFT-COLOR: #036
+}
+.header {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND: #036; HEIGHT: 10%; COLOR: #fff; FONT-SIZE: 12px
+}
+.shebei {
+	border:#CCCCCC 1px solid; height:220px; margin-top:10px; font-size:12px;}
+.yqlink {
+	border:#CCCCCC 1px solid; height:120px; margin-top:10px; font-size:12px;}
+.textlink { width:980px; margin-left:auto; margin-right:auto; height:30px;margin-bottom:5px; margin-top:15px;}
+.textlink ul { height:20px; font-size:14px;FONT-FAMILY: "Î¢ÈíÑÅºÚ"; }
+.textlink ul li{ float:left; list-style-type:none; line-height:30px; text-align: center;}
+.textlink ul li:hover { background-color: #2bb8aa;}
+.textlink ul li a{ border-bottom-color:#CCCCCC; padding-left:10px; padding-right:10px;}
+
+
